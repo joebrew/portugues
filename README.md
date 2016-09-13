@@ -1,0 +1,1 @@
+Perl program downloaded from https://metacpan.org/pod/distribution/Lingua-PT-Conjugate/Conjugate.pod
