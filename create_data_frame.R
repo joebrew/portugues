@@ -12,7 +12,7 @@ create_verb_df <- function(verb = 'falar',
   # Turn into dataframe
   first_entry <- unlist(lapply(strsplit(x, ' '), function(z){z[1]}))
   df <- expand.grid(verb = first_entry[1],
-                    form = first_entry[2:length(first_entry)])
+                    form = first_entry[1:length(first_entry)])
   
   # Define meaning of each form
   meanings <- 
